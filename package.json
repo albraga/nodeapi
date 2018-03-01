@@ -1,0 +1,29 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albraga/nodeapi.git"
+  },
+  "author": "Alexandre Braga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albraga/nodeapi/issues"
+  },
+  "homepage": "https://github.com/albraga/nodeapi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1",
+    "webpack": "^4.0.1",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
